@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./img/icon_quizz2 (2).png">
+    <title>Machado de Assis</title>
+</head>
+
+<body>
+    <div style="background-color:#562D0D">
+        <br>
+        <br>
+
+        <header>
+            <div class="container1">
+                <div style="text-align:center">
+                    <h2>
+                        <font color="#ECDAC6"> QUIZZ GAME
+                    </h2>
+                </div>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <img src="./img/machado-de-assis.jpg" alt="some text" width=500 height=250>
+            </div>
+
+            <style>
+                body {
+                    margin: 15;
+                }
+
+                header>h2 {
+                    color: rgb(30, 59, 59);
+                    text-align: center;
+                }
+
+                .container1 {
+                    border: 5px solid #743c12;
+                    border-radius: 1px;
+                    margin: auto;
+                    margin-top: 10px;
+                    padding: 1px;
+                    width: 10%;
+                }
+
+                .container2 {
+                    border: 2px solid #743c12;
+                    border-radius: 1px;
+                    margin: auto;
+                    margin-top: 16px;
+                    padding: 25px;
+                    width: 55%;
+                }
+            </style>
+
+            <div style="text-align:center">
+                <label> Venha descobrir o quanto você sabe sobre Machado de Assis!
+                    <br> A cada resposta certa, você ganha 10 pontos. O quizz é composto de 10 perguntas.
+                    <br> Boa sorte! </label>
+            </div>
+        </header>
+        <br>
+        <div style="text-align:center">
+            <input (value="" placeholder="Escreva seu nome" ) type="text" id="name">
+        </div>
+        <div class="container2">
+            <label> 1. Qual o seu nome completo?</label>
+            <br>
+            <label>Res: </label><select id="r1">
+                <option value="1">João Maria Machado de Assis</option>
+                <option value="2">Joaquim Mario Machado de Assis</option>
+                <option value="3">José Maria Machado de Assis</option>
+                <option value="4">Joaquim Maria Machado de Assis</option>
+            </select>
+            <br>
+            <br>
+            <br>
+
+            <label> 2. Qual a sua ocupação principal?</label>
+            <br>
+            <label>Res: </label><select id="r2">
+                <option value="1">Jornalista</option>
+                <option value="2">Escritor</option>
+                <option value="3">Comerciante</option>
+                <option value="4">Artista</option>
+            </select>
+            <br>
+            <br>
+            <br>
+
+            <label> 3. Em qual estado nasceu? </label>
+            <br>
+            <label>Res: </label><select id="r3">
+                <option value="1">Rio de Janeiro</option>
+                <option value="2">Santa Catarina</option>
+                <option value="3">Rio Grande do Sul</option>
+                <option value="4">São Paulo</option>
+            </select>
+            <br>
+            <br>
+            <br>
+
+            <label> 4. Já assumiu um cargo no ministério da agricultura?</label>
+            <br>
+            <label>Res: </label><select id="r4">
+                <option value="1">Sim</option>
+                <option value="2">Não</option>
+            </select>
+            <br>
+            <br>
+            <br>
+
+            <label> 5. É o fundador de qual das cadeiras da Academia Brasileira de Letras?</label>
+            <br>
+            <label>Res: </label><select id="r5">
+                <option value="1">1</option>
+                <option value="2">40</option>
+                <option value="3">23</option>
+                <option value="4">17</option>
+            </select>
+            <br>
+            <br>
+            <br>
+
+            <label> 6. Foi o introdutor do Realismo no Brasil?</label>
+            <br>
+            <label>Res: </label><select id="r6">
+                <option value="1">Sim</option>
+                <option value="2">Não</option>
+            </select>
+            <br>
+            <br>
+            <br>
+
+            <label> 7. Foi homenageado com o </label>
+            <br>
+            <label>Res: </label><select id="r7">
+                <option value="1">Prêmio Jabuti</option>
+                <option value="2">Prêmio Machado de Assis</option>
+                <option value="3">Prêmio Camões</option>
+                <option value="4">Prêmio Franz Kafka</option>
+            </select>
+            <br>
+            <br>
+            <br>
+
+            <label> 8. Foi incluído na lista de Heróis Mundiais?</label>
+            <br>
+            <label>Res: </label><select id="r8">
+                <option value="1">Sim</option>
+                <option value="2">Não</option>
+            </select>
+            <br>
+            <br>
+            <br>
+
+            <label> 9. Produziu mais de</label>
+            <br>
+            <label>Res: </label><select id="r9">
+                <option value="1">830 obras</option>
+                <option value="2">529 obras</option>
+                <option value="3">1012 obras</option>
+                <option value="4">230 obras</option>
+            </select>
+            <br>
+            <br>
+            <br>
+
+            <label> 10. Participou do Romantismo? </label>
+            <br>
+            <label>Res: </label><select id="r10">
+                <option value="1">Sim</option>
+                <option value="2">Não</option>
+            </select>
+            <br>
+            <br>
+            <br>
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <div style="text-align:center">
+            <button id="verificar">Verificar Resultado</button>
+            <p id="resultado"></p>
+        </div>
+
+        </font>
+
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+    <script src="./js/pontos.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+<br>
+<br>
+<br>
