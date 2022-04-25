@@ -1,4 +1,4 @@
-# Quizz game machadiano (2022)
+# Quizz game machadiano
 <b>Venha descobrir o quanto você sabe sobre Machado de Assis!<b>
   <br>
   <h6>05/04/2022</h6>
